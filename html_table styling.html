@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> HTML Table Styling</title>
+
+	<style>
+		table, th, tr, td
+		{
+			border: 2px solid red;
+			border-collapse: collapse;
+
+		}
+		th, td
+		{
+			padding: 3px;
+		}
+		th 
+		{
+	
+			color: palegoldenrod;
+
+		}
+		tr
+		{
+			background-color: green;
+		}
+		tr: nth -child(even)
+		{
+			background-color: inherit;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<table style="width: 100%">
+	<caption>This is basic table</caption>
+	<tr>
+        <th>Name</th>
+        <th>Telephone No</th>
+        <th>Email</th>
+        <th>Address</th>
+	</tr>
+	<tr>
+		<td>Nurul Ealisya Mohamad Noor</td>
+		<td>0107894733</td>
+		<td>nealisya@gmail.com</td>
+		<td>Kampung Wakaf Aik</td>
+	</tr>
+	<tr>
+		<td>Muhammad Alif Fahmi</td>
+		<td>0192110848</td>
+		<td>aliffahmi@gmail.com</td>
+		<td><center><img src="images/abstract.png" style="width: 50px"></center></td>
+	</tr>
+
+  
+
+
+    </table>
+
+</body>
+</html>
